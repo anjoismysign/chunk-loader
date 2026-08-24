@@ -1,0 +1,5 @@
+name: chunk-loader
+version: ${version}
+main: io.github.anjoismysign.chunkLoader.ChunkLoader
+api-version: 26.2
+load: POSTWORLD

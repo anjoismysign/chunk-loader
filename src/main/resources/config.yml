@@ -1,0 +1,9 @@
+chunks-per-tick: 5
+world:
+  name: world
+  pos1:
+    x: -100
+    z: -100
+  pos2:
+    x: 100
+    z: 100
