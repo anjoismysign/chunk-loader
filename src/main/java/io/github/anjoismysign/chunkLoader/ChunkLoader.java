@@ -180,6 +180,7 @@ public final class ChunkLoader extends JavaPlugin {
             return;
         }
         loadingFinished = true;
+        Bukkit.getPluginManager().callEvent(new ChunksLoadedEvent());
         getLogger().info("========================================");
         getLogger().info("Map chunk loading complete!");
         getLogger().info("Loaded and ticketed " + loadedChunks + " chunks.");

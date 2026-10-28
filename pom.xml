@@ -6,7 +6,7 @@
 
     <groupId>io.github.anjoismysign</groupId>
     <artifactId>chunk-loader</artifactId>
-    <version>1.0</version>
+    <version>1.1</version>
     <packaging>jar</packaging>
 
     <name>chunk-loader</name>
@@ -61,7 +61,7 @@
         <dependency>
             <groupId>io.papermc.paper</groupId>
             <artifactId>paper-api</artifactId>
-            <version>[26.2.build,)</version>
+            <version>[26.3.build,)</version>
             <scope>provided</scope>
         </dependency>
     </dependencies>
